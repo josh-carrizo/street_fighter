@@ -12,6 +12,8 @@
 	width:621px;
 	height:224px;
 	position:relative;
+	border: 10px solid transparent;
+	border-image: linear-gradient(to bottom, blue 0%, rgba(224,75,5,1) 100%) 1; 
 }
 h1{
 	font-size:16px;
@@ -21,4 +23,36 @@ body{
 }
 h2{
 	font-size:14px;
+}
+
+.instr{
+	background-color: blue;
+	background: linear-gradient(0deg, blue 19%, rgba(224,75,5,1) 66%);
+	width:621px;
+	border: 10px solid transparent;
+	border-image: linear-gradient(to bottom, rgba(224,75,5,1) 0%, blue 100%) 1; 
+}
+.instr2{
+	background-color: blue;
+	background: linear-gradient(0deg, rgba(224,75,5,1) 19%, blue 66%);
+	width:621px;
+	border: 10px solid transparent;
+	border-image: linear-gradient(to bottom, blue 0%, rgba(224,75,5,1) 100%) 1; 
+}
+
+.title{
+	color:blue;
+	background-color: black;
+	font-family: 'Bangers', cursive;
+	font-size:30px;
+	padding-left: 10px;
+}	
+
+.text{
+	font-family: 'Bangers', cursive;
+	font-size: 20px;;
+}	
+
+.final{
+	margin-left: 20px;
 }
