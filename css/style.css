@@ -41,8 +41,13 @@ h2{
 }
 
 .title{
-	color:blue;
-	background-color: black;
+	color:black;
+	font-family: 'Bangers', cursive;
+	font-size:30px;
+	padding-left: 10px;
+}	
+.title2{
+	color:black;
 	font-family: 'Bangers', cursive;
 	font-size:30px;
 	padding-left: 10px;
